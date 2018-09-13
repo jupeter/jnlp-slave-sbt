@@ -25,4 +25,4 @@ MAINTAINER Piotr Plenik <piotr.plenik@gmail.com>
 
 COPY jenkins-slave /usr/local/bin/jenkins-slave
 
-ENTRYPOINT ["jenkins-slave"]
+ENTRYPOINT ["/usr/local/bin/jenkins-slave"]
